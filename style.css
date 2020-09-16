@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+@media only screen and (min-width:992px) and (max-width:1199px) {body{font-size:14pt;}}
+@media only screen and (min-width:768px) and (max-width:991px) {body{font-size:14pt;}}
+@media only screen and (min-width:480px) and (max-width:767px) {body{font-size:11pt;}}
+@media only screen and (max-width:479px) {body{font-size:8pt;}}
+@media only screen and (min-device-width :375px) and (max-device-width :667px) {body{font-size:9.5pt;}}
+@media only screen and (min-device-width:1200px) {body{font-size:10pt;}}
+body {
+    margin: 2em auto;
+    max-width: 72em;
+    line-height: 1.6em  ;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    color: #333;
+    background-color: #fefefe;
+    padding: 1em;
+    position: relative;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+h1,h2,h3 {
+    line-height: 1.2em;
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+    color: #8693c2;
+}
+a:hover {
+    text-decoration: underline;
+    color: #4f69c2;
+}
+.header {
+    margin-bottom: 2em;
+}
+blockquote {
+    color: #666666;
+    margin: 0;
+    padding-left: 3em;
+    border-left: 0.5em #eeeeee solid;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #eeeeee;
+    border-left: 3px solid #50d45b;
+    border-radius: 6px;
+}
+hr {
+    margin: 2.5em;
+    border: none;
+    height: 2px;
+    color: #999999;
+    background-color: #999999;
+}
+.secretlink {
+    text-decoration: none;
+    color: #444444;
+}
+.secretlink:hover {
+    text-decoration: none;
+    color: #444444;
+    cursor: default;
+}
+.html:hover {
+    color: #FE6200;
+    cursor: pointer;
+}
+.css:hover {
+    color: #264de4;
+    cursor: pointer;
+}
+.js:hover {
+    color: #f7e018;
+    cursor: pointer;
+}
+.games:hover {
+    font-weight: 500;
+    cursor: pointer;
+}
+.red {
+    color: #d35353;
+    cursor: not-allowed;
+}
+.alert {position:relative;padding:.75rem 1.25rem;margin-bottom:1rem;border:1px solid transparent;border-radius:.25rem;}
+.alert-info {color:#0c5460;background-color:#d1ecf1;border-color:#bee5eb;}
+.alert-info hr {border-top-color:#abdde5;}
+.alert-info .alert-link {color:#062c33;}
+.alert-warning {color:#59402D;background-color:#fff3cd;border-color:#c9ba9b;}
+.alert-warning hr {border-top-color:#ffe8a1;}
+.alert-warning .alert-link {color:#533f03;}
+.alert-danger {color:#721c24;background-color:#f8d7da;border-color:#f5c6cb;}
+.alert-danger hr {border-top-color:#f1b0b7;}
+.alert-danger .alert-link {color:#491217;}
