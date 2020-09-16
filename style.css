@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
-@media only screen and (min-width:1000px) and (max-width:1200px) {body{font-size:10pt;}}
-@media only screen and (min-width:768px) and (max-width:991px) {body{font-size:14pt;}}
 body {
     margin: 2em auto;
     max-width: 72em;
-    line-height: 1.6em  ;
+    line-height: 1.6em;
+    font-size: 10pt;
     font-family: 'Roboto Mono', monospace;
     font-size: 13px;
     color: #333;
